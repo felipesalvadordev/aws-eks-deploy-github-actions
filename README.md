@@ -1,4 +1,4 @@
-# deploy-to-eks-using-github-actions
+# deploy-to-aws-eks-using-github-actions
 run command choco install eksctl in vs code terminal
 
 1. Create an EKS Cluster and configrue eks using this commands:
