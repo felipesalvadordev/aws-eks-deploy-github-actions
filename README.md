@@ -18,7 +18,9 @@ Clean up: Run: eksctl delete cluster --name salvadorcluster
 
 Image running on EKS:  
 
-![image](https://github.com/felipesalvadordev/deploy-node-js-eks-github-actions/assets/13543372/f62db948-f68d-46e5-82d6-a3f4a451c333)
+![image](https://github.com/felipesalvadordev/deploy-node-js-eks-github-actions/assets/13543372/f62db948-f68d-46e5-82d6-a3f4a451c333)  
+
+Reference: https://youtu.be/9qSmFWwsxwA?si=iYg88LdX2l3zHQcU
 
 
 
