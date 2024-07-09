@@ -14,4 +14,12 @@ aws eks --region us-east-1 update-kubeconfig --name salvadorcluster
         click on secrets and variables
 6. Test application by getting the dns name and going to a web browser
 
-Clean up: Run: eksctl delete cluster --name salvadorapp
+Clean up: Run: eksctl delete cluster --name salvadorcluster
+
+Image running o EKS:  
+
+![image](https://github.com/felipesalvadordev/deploy-node-js-eks-github-actions/assets/13543372/f62db948-f68d-46e5-82d6-a3f4a451c333)
+
+
+
+
