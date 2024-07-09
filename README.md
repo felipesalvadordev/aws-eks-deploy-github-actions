@@ -16,7 +16,7 @@ aws eks --region us-east-1 update-kubeconfig --name salvadorcluster
 
 Clean up: Run: eksctl delete cluster --name salvadorcluster
 
-Image running o EKS:  
+Image running on EKS:  
 
 ![image](https://github.com/felipesalvadordev/deploy-node-js-eks-github-actions/assets/13543372/f62db948-f68d-46e5-82d6-a3f4a451c333)
 
