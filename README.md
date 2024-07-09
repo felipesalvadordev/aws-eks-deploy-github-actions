@@ -3,7 +3,7 @@ run command choco install eksctl in vs code terminal
 
 1. Create an EKS Cluster and configrue eks using this commands:
 
-eksctl create cluster --name salvadorapp --region us-east-1 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2
+eksctl create cluster --name salvadorapp --region us-east-1 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2  
 aws eks --region us-east-1 update-kubeconfig --name salvadorapp
 
 2. Then create .github folder and then create workflow folder inside .github folder 
