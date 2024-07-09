@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: salvadorapp
+  labels:
+    app: salvadorapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: salvadorapp
+  template:
+    metadata:
+      labels:
+        app: salvadorapp
+    spec:
+      containers:
+        - name: salvadorapp
+          image: 805714761459.dkr.ecr.us-east-1.amazonaws.com/salvadorapp:1.1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
