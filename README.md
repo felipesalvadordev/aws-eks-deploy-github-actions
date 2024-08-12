@@ -1,7 +1,11 @@
 # deploy-to-aws-eks-using-github-actions
-run command choco install eksctl in vs code terminal
 
-1. Create an EKS Cluster and configrue eks using this commands:
+First, run command choco install eksctl in vs code terminal.  
+eksctl is a simple CLI tool for creating clusters on EKS 
+
+Step by step through the process of deploying applications to AWS EKS using GitHub actions CI/CD pipeline:
+
+1. Create an EKS Cluster and configure eks region using this commands:
 
 eksctl create cluster --name salvadorapp --region us-east-1 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2  
 aws eks --region us-east-1 update-kubeconfig --name salvadorcluster
